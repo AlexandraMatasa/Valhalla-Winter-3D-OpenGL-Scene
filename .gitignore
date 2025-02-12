@@ -1,0 +1,91 @@
+# Ignore Visual Studio specific files
+.vscode/
+*.code-workspace
+*.suo
+*.user
+*.cache
+*.ilk
+*.log
+*.pdb
+*.obj
+*.ipch
+*.tlog
+*.iobj
+*.idb
+*.VC.db
+*.VC.VC.opendb
+.vs/
+
+# Ignore build folders
+x64/
+Debug/
+Release/
+models/
+FinalProject.x64/
+out/
+build/
+CMakeCache.txt
+CMakeFiles/
+
+# Ignore compiled binary files
+*.exe
+*.dll
+*.lib
+*.exp
+*.pdb
+*.o
+*.a
+*.so
+
+# Ignore OpenGL shaders compiled files
+*.spv
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.swo
+*~
+*.bak
+
+# Ignore package manager files
+node_modules/
+*.pyc
+__pycache__/
+venv/
+
+# Ignore model and texture cache
+*.mtl
+*.obj
+*.fbx
+*.blend1
+*.blend2
+*.png
+*.jpg
+*.bmp
+*.tga
+*.dds
+
+# Ignore Git files
+.gitattributes
+.gitsubmodules
+
+# Ignore logs and crash dumps
+*.log
+*.dmp
+*.stackdump
+*.core
+
+# Ignore editor backup files
+*.sdf
+*.sqlite
+*.manifest
+
+# Ignore unnecessary VS project files
+*.aps
+*.sln.docstates
+*.filters
+*.VC.db
+
+# Ignore large generated files (consider using Git LFS)
+models/scenaFinala/finalScene.obj
+models/scenaFinala/textures/
