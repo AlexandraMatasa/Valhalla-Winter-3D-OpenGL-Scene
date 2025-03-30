@@ -7,6 +7,6 @@ A C++ project using OpenGL that renders a dynamic 3D winter landscape inspired b
 
 - Animates elements like the rotating windmill blades for added realism.
 
-- Allows first-person camera control using mouse and keyboard.
+- Supports user-controlled camera movement through keyboard and mouse.
 
 - Includes multiple rendering modes (solid, wireframe, point).
